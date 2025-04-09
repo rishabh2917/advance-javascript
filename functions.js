@@ -211,7 +211,28 @@
 
 //recursive function 
 
+// function getrecursive(nr){
+//     console.log(nr);
+//     if(nr>0){
+//     getrecursive(--nr);
+// }
+// }
+// getrecursive(3);
 
+
+
+// function logrecursive(nr){
+//     console.log("started function :",nr);
+//     if(nr>0){
+//         logrecursive(nr-1);
+//     }
+//     else{
+//         console.log("done with recursion");
+//     }
+//     console.log("ended function :",nr);
+
+// }
+// logrecursive(3);
 
 
 
