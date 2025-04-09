@@ -91,9 +91,133 @@
     //     resultArr.push(result);
     // }
     // console.log(resultArr);
+
+    //variable scope in function 
+    // function testavailabity(x){
+    //     console.log("availabilty here:",x);
+
+    // }
+    // testavailabity("hii");
+    // console.log("not available here: ",x);
     
 
+    // function testAvailability(){
+    //     let y="local variable";
+    //     console.log("availability here:",y);
+    // }
+    // testAvailability();
+    // console.log("not available here:",y);
     
+//     function testAvailability(){
+//         let y="I will return";
+//         console.log("available here:",y);
+//         return y;
+//     }
+// let z=testAvailability();
+// console.log("outside the function:",z);
+// console.log("not available here:",y);
+
+//let versus var:
+// function doingstuff(){
+//     if (true){
+//         var x="local";
+//     }
+//     console.log(x);
+// }
+// doingstuff();
+
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         let x="local";
+//         }
+// }
+// doingstuff();
+
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         var x="local";
+//         }
+// }
+// doingstuff();
+
+//constant scope
+
+// function doingstuff(){
+//     if (true){
+//         console.log(x);
+//         const x="local";
+//         }
+// }
+// doingstuff();
+
+//global variables are not bind in any scope life of global variable is till the end of the whole program
+
+// let globalvar="acessible everywhere";
+// console.log("outside function:",globalvar);
+
+// function creatingnewscope(x){
+//     console.log("access to global vars inside function ",globalvar);
+// }
+// creatingnewscope("param");
+// console.log("still available:",globalvar);
+
+// let x="global";
+// function doingstuff(){
+//     let x="local";
+//     console.log(x);
+// }
+// doingstuff();
+// console.log(x);
+
+// let x="global";
+// function doingstuff(){
+//      x="local";
+//     console.log(x);
+// }
+// doingstuff();
+// console.log(x);
+
+// let x="global";
+//  function doingstuff(x){
+//     console.log(x);
+//  }
+//  doingstuff("param");
+
+// function confusereader(){
+//     x="guess my scope...";
+//     console.log("inside the function:",x);
+// }
+// confusereader();
+// console.log("outside the function :",x);
+
+// immediately invoked function expression 
+// the immediately invoked function expression (iife)
+// (function (){
+//     console.log("IIFE");
+// })();
+
+// (function (x,y)
+// {
+//     console.log(x+y);
+// })(2,3);
+
+
+// arrow function as iife 
+// (()=>{
+//     console.log("run right away");
+// })();
+
+//recursive function 
+
+
+
+
+
+
+
+
 
 
     
