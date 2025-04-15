@@ -234,8 +234,85 @@
 // }
 // logrecursive(3);
 
+// function getrecursive(nr){
+    
+//     if(nr>0){
+//     getrecursive(--nr);
+// }
+// console.log(nr);
+// }
+// getrecursive(3);
+
+// function logrecursive(nr){
+//     console.log("started function :",nr);
+//     if(nr>0){
+//         logrecursive(nr-1);
+//     }
+//     else{
+//         console.log("done with recursion");
+//         }
+//         console.log("ended function :",nr);
+// }
+// logrecursive(3);
+
+// the perfomance of recursion is slightly worse the performance of regular iteration using a for loop. so process of bottleneck 
+   
+
+// nested function 
+
+// function doouterfunction(nr){
+//     console.log("outer function");
+//     doinnerfunction(nr);
+//     function doinnerfunction(x){
+//         console.log(x+7);
+//         console.log("i can access the outer function");
+//     }
+// }
+// doouterfunction(2);
 
 
+// anonymous funcion 
+
+// like passing in a funtion as parameters . This concept adds another layer to coding .This concept is called callbacks .
+//function callbacks
+
+// let funcionvariable=function(){
+//     console.log("not to secret though");
+
+// };
+// function doflexiblestuff(executestuff){
+//     executestuff();
+//     console.log("inside doflexiblestufffunction.");
+// }
+// doflexiblestuff(funcionvariable);
+
+
+// in Javascript there are many built in funtion as you may know may know by now one of them is the settimeout() function
+// it is very special function that is executing a certain function after a specified amount of time that it will wait FinalizationRegistry.apply
+
+// let yougotthis=function(){
+//     console.log("you are doing really well");
+// };
+// setTimeout(yougotthis,1000);
+// setInterval(yougotthis,1000);
+
+
+
+
+// (function(){
+//     console.log("welcome");
+// })();
+// (function(){
+//     let firstname="laurance";
+// })();
+// let result=(function(){
+//     let firstname="laurance";
+//     return firstname;
+// })();
+// console.log(result);
+// (function(firstname){
+//     console.log("my name is "+firstname);
+// })("laurance");
 
 
 
