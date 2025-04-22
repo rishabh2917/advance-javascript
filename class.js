@@ -45,10 +45,17 @@
 // let p=new Person("John");
 // console.log( "hi" ,p.firstname,p.lastname);
 
-// Methods 
+
+
+
+
+
+
+//Methods
+
 
 // functions on a class are called the methods and when defining these methods we dont use the functions keyword.
-// we start directly with the method name and the parameters inside the parenthesis.
+// we start directly with the method name and the parameters inside the parenthesis
 
 // class Person{
 //         constructor(firstname,lastname="deere"){
@@ -62,6 +69,76 @@
 
 //     let p=new Person("makie","van putten");
 //     p.greet();
+
+
+
+// class Person{
+//         constructor(firstname,lastname="deere"){
+//             this.firstname=firstname;
+//             this.lastname=lastname;
+//         }
+//         greet(){
+//             console.log("hi, there");
+
+//         }
+//         compliment(name,object){
+//             return"that a wonderful"+object+","+name;
+//         }
+//     }
+//       let p=new Person("makie","van putten");
+//     let compliment = p.compliment("harry","hat");
+//     console.log(compliment);
+
+
+
+//Properties
+
+//properties ,sometimes also called fields,hold the data of the class.
+
+// class Person{
+//     #firstname;
+//     #lastname;
+//     constructor(firstname,lastname){
+//    if(firstname.startsWith("M")){
+//     this.#firstname=firstname;
+//     this.#lastname=lastname;
+//    }
+//    else{
+//     this.#lastname=lastname;
+//    }
+//     }
+// }
+// let p= new Person("maria","saga");
+// console.log(p.firstname);
+
+// class Person{
+//     #firstname;
+//     #lastname;
+//     constructor(firstname,lastname){
+   
+//     this.#firstname=firstname;
+//     this.#lastname=lastname;
+//     }
+//     get firstname(){
+//         return this.#firstname;
+
+//     }
+//     set firstname(firstname){
+//         this.#firstname=firstname;
+       
+//     }
+//     get lastname(){
+//         return this.#lastname;
+//     }
+//     set lastname(lastname){
+//         this.#lastname=lastname;
+//     }
+// }
+// let p=new Person("Maria","saga");
+// console.log(p.firstname);
+// console.log(p.firstname="rishabh");
+
+
 
 
 
