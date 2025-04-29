@@ -139,6 +139,54 @@
 // console.log(p.firstname="rishabh");
 
 
+//single level inheritance
+// class Vehicle 
+// {
+//     constructor(color,currentspeed,maxspeed){
+//         this.color=color;
+//         this.currentspeed=currentspeed;
+//         this.maxspeed=maxspeed;
+//     }
+//     move(){
+//         console.log("moving at",this.currentspeed);
+//     }
+//     accelerate(amount){
+//         this.currentspeed +=amount;
+//     }
+// }
+// class Motorcycle extends Vehicle{
+//     constructor(color,currentspeed,maxspeed,fuel){
+//         super(color,currentspeed,maxspeed);  //super is used to call constructor of parent class
+//         this.fuel=fuel;
+//     }
+//     doWheelie(){
+//         console.log("driving on the wheel");
+//     }
+// }
+// let motor=new Motorcycle("black",0,250,"gasoloine");
+// console.log(motor.color);
+// motor.accelerate(50);
+// motor.move();
 
+
+// //PROTOTYPES :
+
+// class Person{
+//     constructor(firstname,lastname)
+//     {
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//     }
+
+// greet ()
+// {
+//     console.log("hi there",this.firstname);
+// }}
+// Person.prototype.introduce=function(){
+//     console.log("hi,im ",this.firstname);
+// };
+// let p=new Person ("maria","saga");
+// console.log(p.favoritecolor);
+// p.introduce();
 
 
